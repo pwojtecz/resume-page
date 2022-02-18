@@ -56,3 +56,59 @@ body {
   background-color: #EEF2FF;
   color: #3730a3;
 }
+
+.introduction {
+  padding: 186px 0 198px 0;
+  display: flex;
+  gap: 106px;
+}
+
+.introduction__photo {
+  width: 478px;
+  height: 533px;
+}
+
+.presentation__name {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #4338CA;
+  font-size: 20px;
+  padding: 40px 0;
+}
+
+.presentation__name-prefix {
+  display: inline-block;
+  background-color: #3730A3;
+  height: 1px;
+  border: 0;
+  width: 102px;
+}
+
+.presentation__abilities {
+  display: flex;
+  flex-direction: column;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.presentation__details {
+  font-size: 18px;
+  line-height: 28px;
+  color: #6B7280;
+  padding: 40px 0;
+}
+
+.presentation__divider {
+  background-color: #E5E7EB;
+  height: 1px;
+  border: 0;
+  margin: 20px 0;
+}
+
+.presentation__availability-info {
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+}
