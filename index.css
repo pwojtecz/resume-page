@@ -124,3 +124,57 @@ body {
 .motto__punch-line {
   color: #4338CA;
 }
+
+.skills {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 150px 0;
+}
+
+.skills__image {
+  width: 440px;
+  height: 622px;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: 311px 311px;
+  grid-template-rows: 132px 132px 132px;
+  column-gap: 68px;
+  row-gap: 68px;
+}
+
+.skills__details-link {
+  display: flex;
+  gap: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #3730A3;
+}
+
+.skills__details-link:hover {
+  color: #4338CA;
+}
+
+.skills__description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+  padding: 20px 0;
+}
+
+.skills__name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1F2937;
+}
