@@ -268,3 +268,37 @@ body {
   font-weight: 600;
   color: #1F2937;
 }
+
+.footer {
+  background-color: #FEF2F2;
+  padding: 111px 18px 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #374151;
+}
+
+.footer__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #9CA3AF;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  width: 664px;
+}
+
+.footer__social-icons {
+  display: flex;
+  gap: 50px;
+}
